@@ -79,6 +79,7 @@
       "source_files": [],
       "formula": "total_gfa / site_area",
       "confidence": "none",
+      "reason": "Required by the official announcement as a core planning control metric. The official regulatory plan FAR controls for this site have not yet been published, so the value cannot be determined without approved statutory controls. Retained as a metric entry to signal that it must be filled once the official regulatory plan is released.",
       "assumptions": [
         "Official regulatory plan FAR controls not yet published for the site; cannot be determined without approved statutory controls."
       ]
@@ -90,6 +91,7 @@
       "source_files": [],
       "formula": "max(building_heights)",
       "confidence": "none",
+      "reason": "Required by the official announcement as a core planning control metric. Official height controls have not yet been published; aviation, heritage, and landscape constraints are pending confirmation. Retained as a metric entry to signal that it must be filled once the official regulatory plan is released.",
       "assumptions": [
         "Official height controls not yet published; aviation, heritage, and landscape constraints to be confirmed."
       ]
@@ -101,6 +103,7 @@
       "source_files": [],
       "formula": "building_footprint_area / site_area",
       "confidence": "none",
+      "reason": "Required by the official announcement as a core planning control metric. Statutory density control is pending the official regulatory plan. Retained as a metric entry to signal that it must be filled once the official regulatory plan is released.",
       "assumptions": [
         "Conceptual building density estimate ~10%, but statutory density control pending official regulatory plan."
       ]

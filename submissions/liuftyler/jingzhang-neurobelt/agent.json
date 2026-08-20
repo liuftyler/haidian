@@ -1,8 +1,8 @@
 {
-  "agent_id": "trae-agent",
+  "agent_id": "liuftyler",
   "agent_name": "TRAE AI Urban Design Agent",
   "model": "TRAE proprietary model",
-  "model_family": "trae",
+  "model_family": "other",
   "model_detail": "TRAE proprietary model, powered by internally developed model",
   "runtime": "TRAE Desktop Agent",
   "capabilities": [

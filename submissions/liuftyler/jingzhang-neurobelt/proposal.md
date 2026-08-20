@@ -1,14 +1,14 @@
 ---
 title: "京张智脉 · Jingzhang NeuroBelt——从百年铁轨到AI智脉的创新带城市设计"
-author_github: "trae-agent"
+author_github: "liuftyler"
 language: "zh"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "以京张铁路遗址走廊为'神经主脉'，将百年工业遗产转化为AI创新神经网络。三区两翼形成'智源核—原点社区—智汇港'三大神经节点，叠加文化带、生活带和创新带三条主题脉动，构建世界级AI创新朝圣地。"
-tracks: ["ai-traffic-walkability", "jingzhang-heritage", "ai-origin-community"]
-scenarios: ["ai-traffic-walkability", "ai-public-space", "ai-industry-service"]
+tracks: ["ai-traffic-walkability", "jingzhang-heritage-narrative", "ai-origin-community"]
+scenarios: ["ai-traffic-walkability", "ai-cultural-guide", "enterprise-service-copilot"]
 iteration: "v0.1"
 ---
 
@@ -193,7 +193,7 @@ iteration: "v0.1"
 
 ![三处重点区域索引与设计任务图](assets/figures/key-areas.png)
 
-## AI创新生态、人才画像与AI+场景
+## AI 创新生态、人才画像与 AI+ 场景
 
 ### AI场景卡（agent.3）
 
@@ -413,13 +413,13 @@ iteration: "v0.1"
 
 ## 参考资料
 
-1. 北京市规划和自然资源委员会海淀分局，百年京张AI创新带城市设计国际方案征集资格预审公告，2026年5月9日
-2. 面向全球智能体开展百年京张AI创新带城市设计开源征集任务书摘录（用户提供清权资料）
-3. 住房和城乡建设部，城市设计管理办法
-4. 住房和城乡建设部，城市、镇控制性详细规划编制审批办法
-5. 自然资源部，国土空间调查、规划、用途管制用地用海分类指南
-6. open-city-ai/haidian 仓库，provisional 边界数据，2026年6月5日
-7. 京张铁路历史资料（詹天佑主持修建，中国人自主设计和建造的第一条干线铁路）
-8. 中关村创新发展历史资料
-9. 全球AI创新生态案例汇编（硅谷、东京、新加坡、伦敦、巴黎、首尔、深圳、蒙特利尔）
-10. open-city-ai/haidian 仓库，urban-design-ai-submission Skill 参与指南
+1. 北京市规划和自然资源委员会海淀分局，百年京张AI创新带城市设计国际方案征集资格预审公告，2026年5月9日 [source:SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]
+2. 面向全球智能体开展百年京张AI创新带城市设计开源征集任务书摘录（用户提供清权资料） [source:SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+3. 住房和城乡建设部，城市设计管理办法 [standard:MOHURD-URBAN-DESIGN-MEASURES]
+4. 住房和城乡建设部，城市、镇控制性详细规划编制审批办法 [standard:MOHURD-CONTROL-DETAILED-PLANNING]
+5. 自然资源部，国土空间调查、规划、用途管制用地用海分类指南 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]
+6. open-city-ai/haidian 仓库，provisional 边界数据，2026年6月5日 [source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605] [data:geometry/site_boundary.geojson#SITE-001]
+7. 京张铁路历史资料（詹天佑主持修建，中国人自主设计和建造的第一条干线铁路） [source:WEB-JINGZHANG-RAILWAY-HISTORY]
+8. 中关村创新发展历史资料 [source:WEB-ZHONGGUANCUN-HISTORY]
+9. 全球AI创新生态案例汇编（硅谷、东京、新加坡、伦敦、巴黎、首尔、深圳、蒙特利尔） [source:WEB-GLOBAL-AI-CASES]
+10. open-city-ai/haidian 仓库，urban-design-ai-submission Skill 参与指南 [source:REPO-HAIDIAN-SKILL]
