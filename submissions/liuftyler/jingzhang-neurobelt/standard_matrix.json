@@ -1,0 +1,143 @@
+{
+  "schema_version": "0.1.0",
+  "project_id": "centennial-jingzhang-ai-belt",
+  "package_id": "jingzhang-neurobelt",
+  "package_name_zh": "京张智脉（Jingzhang NeuroBelt）",
+  "standards": [
+    {
+      "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+      "title_zh": "百年京张AI创新带城市设计国际方案征集资格预审公告",
+      "mandatory_for_formal": true,
+      "status": "addressed",
+      "evidence_files": [
+        "proposal.md",
+        "compliance_matrix.json",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson"
+      ],
+      "response_zh": "方案以公告为三层范围（统筹研究范围43.6km²、总体设计范围11.4km²、重点区域范围368.4ha）、三处重点区域（众智园192.1ha、AI原点社区104.3ha、大钟寺72.0ha）和十一条设计任务的主控依据。公告中的文字四至和面积值在 design_brief.json 和 planning_limits.json 中登记，方案用地分类、面积复算和指标体系均回引公告已知值。方案正文的每个章节对应公告设计任务条目，并在 compliance_matrix.json 中逐条标注 announce.1-announce.11 的覆盖状态。三层范围工作框架、统筹研究范围产业研究、总体设计范围城市更新、重点区域详细设计、交通市政策略、蓝绿公共空间、更新项目分期和指标合规矩阵均按公告要求的深度展开。",
+      "gaps_zh": "公告提供的文字四至和面积值不能替代官方GIS/CAD polygon。当前使用 provisional boundary（SRC-PROVISIONAL-BOUNDARIES-2026）进行临时设计和自检，official polygon 发布后需重算所有面积、绿地比例、公共空间比例等指标，并升级 provisional 标记。资格预审文件下载仍受密码保护，公开渠道未找到可验证坐标系的精确红线。"
+    },
+    {
+      "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+      "title_zh": "面向全球智能体开展百年京张AI创新带城市设计开源征集任务书摘录",
+      "mandatory_for_formal": true,
+      "status": "addressed",
+      "evidence_files": [
+        "proposal.md",
+        "compliance_matrix.json",
+        "visual/index.html",
+        "metrics.json",
+        "geometry/scenario_nodes.geojson",
+        "geometry/ai_service_zone.geojson"
+      ],
+      "response_zh": "方案覆盖任务书六项agent任务（agent.1-agent.6）：总体概念与命名（京张智脉/NeuroBelt）、AI全栈创新生态（7个全球案例+六要素生态图谱）、AI+场景赋能（12张场景卡+4个测试验证场景+6类用户画像）、AI公共空间与朝圣地标（4个地标+公共空间组件库）、文化融合叙事（三层文化叙事+导视符号系统）、全球活动与长期运营（年度活动体系+开发者社区+品牌资产机制）。三项formal核心视觉指标（site_area_sqm、green_ratio、public_space_ratio）均为从投稿者几何可复算的known有限数值，与 visual/index.html 的 data-value 一致。provisional几何产生的低置信度值保留了provisional标记、来源、公式和复算触发条件。方案遵守十条共创原则和统一边界条款，所有空间落地建议表述为「概念建议」「参考方案」「可供专业团队深化研究」。",
+      "gaps_zh": "方案使用provisional boundary生成低置信度指标值（green_ratio confidence=low, public_space_ratio confidence=low），official polygon发布后需复算并升级置信度。容积率（floor_area_ratio status=unknown）和建筑高度（building_height_m status=unknown）因依赖未公开官方控规条件而保持unknown，符合任务书要求但待官方控制条件补齐后需补算。"
+    },
+    {
+      "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+      "title_zh": "城市设计管理办法",
+      "mandatory_for_formal": true,
+      "status": "addressed",
+      "evidence_files": [
+        "proposal.md",
+        "compliance_matrix.json",
+        "geometry/land_use.geojson",
+        "geometry/public_space.geojson",
+        "geometry/green_space.geojson",
+        "geometry/buildings.geojson",
+        "visual/index.html"
+      ],
+      "response_zh": "方案落实城市设计管理办法关于「落实规划、指导建筑设计、塑造特色风貌」的要求：以总体空间结构图落实规划，以建筑形态概念建议指导建筑设计方向，以智脉视觉识别系统和城市风貌控制塑造特色风貌。方案统筹平面和立体空间，在蓝绿空间、公共空间与城市风貌章节说明建筑高度体量风格色彩等控制要求的方向性建议。公共空间网络（public_space.geojson）和绿地系统（green_space.geojson）体现公共空间统筹。京张遗址公园活力带、AI朝圣地标和城市基调风貌控制回应特色风貌塑造要求。建筑形态以概念体量表达，未替代建筑设计的法定控制。",
+      "gaps_zh": "建筑高度、体量、风格、色彩等控制要求因缺少官方控规条件和现状建筑数据，目前只能给出方向性设计建议，无法达到办法要求的控制性深度。待官方控规和现状建筑数据补齐后，需将方向性建议升级为可校验的控制引导指标。"
+    },
+    {
+      "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+      "title_zh": "城市、镇控制性详细规划编制审批办法",
+      "mandatory_for_formal": true,
+      "status": "addressed",
+      "evidence_files": [
+        "proposal.md",
+        "compliance_matrix.json",
+        "design_depth_matrix.json",
+        "metrics.json",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "planning_limits.json"
+      ],
+      "response_zh": "方案在总体设计范围达到控制性详细规划的城市设计深度，在重点区域达到规划综合实施方案的城市设计深度。方案严格区分已知控制条件、设计建议和待确认事项：planning_limits.json 中 official_planning_controls 的 floor_area_ratio、building_height_m、building_density、green_ratio、setback_m 均标记为 status=missing，方案不伪造审定指标。metrics.json 中 floor_area_ratio、building_height_m、building_density 保持 status=unknown 并说明原因。用地分类采用国土空间用地用海分类指南代码。更新项目清单和实施政策在分期计划章节展开，但土地权属、投资测算和审批判断均表述为待确认。",
+      "gaps_zh": "控规编制审批办法要求的核心控制指标（容积率、建筑高度、建筑密度、绿地率、退线）因官方控规条件缺失而全部为unknown。这构成formal提交的主要数据缺口——provisional boundary 可通过 intake 自检，但 formal professional scoring 需要官方控规条件。待规划主管部门发布控规条件后，需将所有unknown指标升级为known并重算指标体系。"
+    },
+    {
+      "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
+      "title_zh": "国土空间调查、规划、用途管制用地用海分类指南",
+      "mandatory_for_formal": true,
+      "status": "addressed",
+      "evidence_files": [
+        "proposal.md",
+        "geometry/land_use.geojson",
+        "land_use_codes.json",
+        "compliance_matrix.json",
+        "metrics.json"
+      ],
+      "response_zh": "方案用地分类采用自然资发〔2023〕234号用地用海分类指南的数字代码体系，在 land_use_codes.json 中登记项目子集代码：科研用地（0802）、文化用地（0803）、教育用地（0804）、体育用地（0805）、医疗卫生用地（0806）、商业用地（0901）、商务金融用地（0902）、城镇村道路用地（1207）、公园绿地（1401）、防护绿地（1402）、广场用地（1403）、居住用地（07）和留白用地（16）。geometry/land_use.geojson 的 LAND_USE 图层要素均标注对应的 land_use_code，不使用自造分类替代可校验用地代码。指标体系中的绿地比例和公共空间比例基于该分类体系复算。",
+      "gaps_zh": "land_use_codes.json 为项目子集，未导入完整官方代码表。正式法定规划使用前需导入完整用地用海分类代码表，并核对三级分类代码的完整性。当前用地分类为概念设计级别，official polygon 和控规用地边界发布后需重新校核用地代码与面积的对应关系。"
+    },
+    {
+      "standard_id": "MOHURD-ARCH-DESIGN-DEPTH-2016",
+      "title_zh": "建筑工程设计文件编制深度规定（2016年版）",
+      "mandatory_for_formal": false,
+      "status": "addressed",
+      "evidence_files": [
+        "proposal.md",
+        "geometry/buildings.geojson",
+        "metrics.json",
+        "design_depth_matrix.json"
+      ],
+      "response_zh": "方案将此标准登记为建筑专业深度参照项。建筑形态以概念体量（geometry/buildings.geojson 的 BUILDING_FOOTPRINT 图层）表达，metrics.json 中 building_footprint_area_sqm=1141283 为概念建筑基底面积。方案在重点区域详细设计中对建筑形态、功能比例和更新分类给出方向性建议，但不达到建筑工程设计文件编制深度规定的方案设计深度。该标准作为背景参照，用于判断建筑专业深度差距和后续深化需求。",
+      "gaps_zh": "该标准的官方PDF或清权文件尚未取得（standards.json 中 source_status=needs_official_file），不把非官方镜像作为formal权威依据。当前建筑形态仅为概念体量，未达到方案设计深度。后续专业团队深化时需按此规定补齐建筑方案设计文件深度。"
+    },
+    {
+      "standard_id": "GENERATIVE-AI-INTERIM-MEASURES",
+      "title_zh": "生成式人工智能服务管理暂行办法",
+      "mandatory_for_formal": false,
+      "status": "addressed",
+      "evidence_files": [
+        "proposal.md",
+        "compliance_matrix.json",
+        "report/copyright_statement.md"
+      ],
+      "response_zh": "方案在AI场景卡设计中参照本办法的适用边界：第2条适用于向境内公众提供生成文本、图片、音频、视频等内容的生成式AI服务。方案中的AI场景卡区分了面向公众的生成式AI服务场景和内部测试验证场景，对涉及公众服务的场景标注备案和安全评估提示（第17条，仅针对具有舆论属性或社会动员能力的服务）。第14条违法内容与服务处置边界和第15条投诉举报渠道在场景卡的隐私边界和人工复核机制中得到回应。方案未将测试场景写成已批准运营，未使用非公开数据或个人隐私作为必要条件。report/copyright_statement.md 中说明AI生成内容的来源、生成方式、授权和限制。",
+      "gaps_zh": "本办法为背景参照标准，非项目法定控制。具体场景是否需要备案、安全评估需在运营阶段按服务属性个案判断。方案不替代个案法律意见或备案、安全评估结论。快照仅供离线检索，正式引用以官方页面为准。"
+    },
+    {
+      "standard_id": "BARRIER-FREE-ENVIRONMENT-LAW",
+      "title_zh": "中华人民共和国无障碍环境建设法",
+      "mandatory_for_formal": false,
+      "status": "addressed",
+      "evidence_files": [
+        "proposal.md",
+        "geometry/public_space.geojson",
+        "geometry/scenario_nodes.geojson",
+        "compliance_matrix.json"
+      ],
+      "response_zh": "方案在公共空间设计和AI场景卡中参照无障碍环境建设法第39条要求：对医疗、社会保障、金融、生活缴费等正文列举服务事项的公共服务场所，保留现场指导和人工办理通道。方案中的AI+医疗、AI+生活服务等场景卡明确标注人工服务保留通道和数字界面无障碍设计要求。公共空间网络（public_space.geojson）中的公共活动空间考虑无障碍通行。方案未将第39条人工服务要求泛化为所有公共空间或数字界面的普遍结论，严格按正文列举场景理解。",
+      "gaps_zh": "该法为背景参照标准，非项目法定控制。具体场所的无障碍合规认定需在设计和实施阶段单独判断。快照仅供离线检索，不替代具体场所合规认定。法律于2023-06-28通过，2023-09-01起施行；方案参照现行条文，后续如有修订需更新。"
+    },
+    {
+      "standard_id": "ELDERLY-SMART-TECH-PLAN-2020-45",
+      "title_zh": "国务院办公厅关于印发《关于切实解决老年人运用智能技术困难实施方案》的通知（国办发〔2020〕45号）",
+      "mandatory_for_formal": false,
+      "status": "addressed",
+      "evidence_files": [
+        "proposal.md",
+        "geometry/scenario_nodes.geojson",
+        "compliance_matrix.json"
+      ],
+      "response_zh": "方案在用户画像中包含「老年居民」类别（6类用户画像之一），在AI场景卡设计中参照该方案关于传统服务方式与智能化服务创新并行的要求。AI+生活服务、AI+交通、AI+公共空间等场景卡保留传统服务通道，未把未成熟技术写成已可全面部署。方案参照该方案列举的老年人高频服务场景（出行、就医、消费、文体活动、办事服务）设计场景卡的服务边界。该方案面向全国，2020-2022年阶段性目标已到期，方案作为政策背景参照，不写成2026年仍在执行的法律义务或本地落实事实。",
+      "gaps_zh": "该政策文件面向全国，未提供海淀区空间落位或本地实施结论，2020-2022年阶段性目标已到期。方案不把该政策写成具体项目法定控制或本地落实事实。后续实施阶段需参照海淀区本地老年人服务需求和落实情况。"
+    }
+  ]
+}

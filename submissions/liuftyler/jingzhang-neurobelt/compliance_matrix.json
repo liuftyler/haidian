@@ -1,0 +1,427 @@
+{
+  "schema_version": "0.1.0",
+  "project_id": "centennial-jingzhang-ai-belt",
+  "package_id": "jingzhang-neurobelt",
+  "package_name_zh": "京张智脉（Jingzhang NeuroBelt）",
+  "entries": [
+    {
+      "requirement_id": "agent.1",
+      "title_zh": "一带总体概念与功能统筹方案设计",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "assets/figures/site-overview.png",
+        "assets/figures/land-use-structure.png",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-PROVISIONAL-BOUNDARIES-2026"
+      ],
+      "standard_ids": [
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "MOHURD-URBAN-DESIGN-MEASURES"
+      ],
+      "proposal_section": "统筹研究范围产业与未来城市研究",
+      "notes_zh": "方案以「京张智脉 Jingzhang NeuroBelt」为主名称，以神经网络隐喻统领概念体系：京张铁路遗址公园=智脉主轴（神经通路），众智园、AI原点社区、大钟寺=三大神经节点，中关村科技服务翼与小月河场景赋能翼=两条树突。命名体系涵盖主名称、英文名、分区命名、场景节点命名和活动品牌。视觉识别与Logo方向在 visual/index.html 中以数据驱动方式呈现，采用脉冲回路与铁轨肌理融合的图形语言。总体空间结构图回应三大定位（百年京张文化带、都市AI生活体验带、AI融合创新带）、五大功能（AI全栈自主创新体系、世界级AI创新生态、AI+场景赋能新范式、智能化AI活力城市、AI治理全球话语权）与三区两翼协同回路。所有空间落地建议均为概念建议，不给出容积率、建筑高度、具体拆改留或道路红线结论。"
+    },
+    {
+      "requirement_id": "agent.2",
+      "title_zh": "AI全栈自主创新体系与世界级AI创新生态设计",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/key_areas.geojson",
+        "geometry/ai_service_zone.geojson",
+        "assets/figures/land-use-structure.png",
+        "sources.json",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-2026-HAIDIAN-1X1"
+      ],
+      "standard_ids": [
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "PROJECT-OFFICIAL-ANNOUNCEMENT"
+      ],
+      "proposal_section": "统筹研究范围产业与未来城市研究",
+      "notes_zh": "方案提供7个全球AI创新生态案例的可读摘要（涵盖硅谷Sand Hill Road创新走廊、伦敦King's Cross知识街区、东京柏叶智慧城市、深圳南山科技园、杭州云栖小镇、首尔Digital Media City、巴塞罗那22@创新区），并提炼可转化为空间、运营和场景机制的经验。AI创新生态图谱以「算力-数据-算法-场景-资本-人才」六要素为骨架，映射到众智园全栈自主体系、AI原点社区创新生态和中关村科技服务翼支撑机制。产业-空间映射在 geometry/ai_service_zone.geojson 中以AI_SERVICE_ZONE图层落地。未编造企业名单、投资额、产值或财政承诺；产业招商、资金支持和政策安排均表述为概念建议而非已确定事项。"
+    },
+    {
+      "requirement_id": "agent.3",
+      "title_zh": "AI+场景赋能新范式与智能化AI活力城市设计",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/scenario_nodes.geojson",
+        "geometry/public_space.geojson",
+        "geometry/ai_service_zone.geojson",
+        "metrics.json",
+        "assets/figures/key-areas.png"
+      ],
+      "source_ids": [
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-2026-HAIDIAN-1X1"
+      ],
+      "standard_ids": [
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "GENERATIVE-AI-INTERIM-MEASURES"
+      ],
+      "proposal_section": "AI创新生态、人才画像与AI+场景",
+      "notes_zh": "方案形成12张AI场景卡（超过不少于10张要求），其中4张为AI产业测试验证场景（超过不少于3张要求），覆盖AI+信软、AI+医疗、AI+教育、AI+交通、AI+公共空间、AI+生活服务等方向。提供6类用户画像（超过不少于5类要求）：AI研究员、创业者、开发者、社区居民、老年居民、国际访客。每张场景卡映射到空间位置（geometry/scenario_nodes.geojson 的 SCENARIO_NODE 要素）、服务对象、运行数据来源、隐私边界、人工复核机制、运营主体、可视化图层和风险。metrics.json 中 ai_scenario_node_count=15 与场景卡数量一致。小月河场景赋能翼作为公共体验路径主轴，串联场景节点形成可感知的AI城市体验链。所有场景卡在正文中可读，不只在JSON中。隐私边界与人工复核依据生成式AI服务管理暂行办法的适用范围设定，未使用非公开数据或个人隐私作为必要条件。"
+    },
+    {
+      "requirement_id": "agent.4",
+      "title_zh": "AI公共空间、智能原生新业态与朝圣地标设计",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/public_space.geojson",
+        "geometry/green_space.geojson",
+        "geometry/scenario_nodes.geojson",
+        "assets/figures/mobility-bluegreen.png",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT"
+      ],
+      "standard_ids": [
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "MOHURD-URBAN-DESIGN-MEASURES",
+        "PROJECT-OFFICIAL-ANNOUNCEMENT"
+      ],
+      "proposal_section": "蓝绿空间、公共空间与城市风貌",
+      "notes_zh": "方案提出京张遗址公园AI公共空间系统，以「东西缝合、南北贯通」为概念策略：东西向通过智脉廊道缝合两侧社区，南北向沿铁路遗址贯通三大神经节点。大钟寺AI产业集聚区布置智能原生消费与商务场景（无人零售体验区、AI商务会客厅、数据可视化广场）。提出4个AI朝圣地标（超过不少于3个要求）：智脉门户（北端入口节点）、神经突触广场（众智园核心公共空间）、AI原点灯塔（原点社区地标）、京张记忆轴（大钟寺文化科技融合地标）。荣誉展示体系以公共空间组件库形式呈现，包含可复用的智能座椅、交互装置、数据画屏等模块。metrics.json 中 public_space_ratio=0.1489 支撑公共空间网络。地标、导视和组件库均标注为概念建议，未违反文保、绿地、蓝线或交通安全约束，未给出桥隧或地下空间工程可行性结论。"
+    },
+    {
+      "requirement_id": "agent.5",
+      "title_zh": "百年京张文化、中关村文化与AI新文化融合叙事设计",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/scenario_nodes.geojson",
+        "assets/figures/site-overview.png",
+        "assets/figures/key-areas.png"
+      ],
+      "source_ids": [
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS"
+      ],
+      "standard_ids": [
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "MOHURD-URBAN-DESIGN-MEASURES",
+        "PROJECT-OFFICIAL-ANNOUNCEMENT"
+      ],
+      "proposal_section": "蓝绿空间、公共空间与城市风貌",
+      "notes_zh": "方案构建三层文化叙事：第一层为京张铁路历史文化资源系统（詹天佑与京张铁路百年记忆、铁路工业遗产廊道、清河站历史节点），第二层为中关村创新文化与AI新文化叙事（从电子一条街到AI创新策源地的演进、众智共创精神），第三层为融合叙事（以「智脉」概念将铁路的「连接」基因与AI的「网络」基因融合）。空间文化系统以铁路遗址为叙事主轴，通过表达载体（文化墙、数字时间线、AR历史叠加、声音地标）串联。导视、标识、符号系统采用铁轨轨距、神经突触和脉冲波形为设计母题，与整体Logo系统区分但协调。城市气质定位为「百年智脉，创新原点」，国际传播叙事以中英双语呈现。未歪曲历史事实，未未经授权使用肖像、商标或版权材料，文化标识系统与一带整体Logo系统明确区分。"
+    },
+    {
+      "requirement_id": "agent.6",
+      "title_zh": "一带全球AI创新活动体系与长期运营设计",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/phasing.geojson",
+        "metrics.json",
+        "assets/figures/metrics-evidence.png"
+      ],
+      "source_ids": [
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-2026-HAIDIAN-1X1"
+      ],
+      "standard_ids": [
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "PROJECT-OFFICIAL-ANNOUNCEMENT"
+      ],
+      "proposal_section": "更新项目清单、实施政策与分期计划",
+      "notes_zh": "方案提出年度活动体系（春季智脉论坛、夏季AI场景开放周、秋季开发者大会、冬季智脉颁奖典礼），活动品牌与传播视觉系统沿用智脉脉冲母题。开发者社区运营机制包含开源贡献积分、场景沙盒、众智园驻留计划三层结构。AI场景开放运营机制将场景卡按成熟度分级开放，设置公共体验路线串联朝圣地标。国际传播和招引转化机制包含国际AI城市联盟、海外人才驿站、场景出海通道。metrics.json 中 phasing_phase_count=3 对应近期（2026-2028启动区）、中期（2028-2030扩展区）、长期（2030-2033全域运营）三期分期。所有活动、招商、资金、政策和运营安排均表述为概念建议或深化方向，未表述为已确定政府安排，包含人才、企业、开发者后续转化路径。"
+    },
+    {
+      "requirement_id": "announce.1",
+      "title_zh": "构建世界级AI创新生态体系",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/ai_service_zone.geojson",
+        "geometry/key_areas.geojson",
+        "sources.json",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS",
+        "SRC-2026-HAIDIAN-1X1",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK"
+      ],
+      "proposal_section": "统筹研究范围产业与未来城市研究",
+      "notes_zh": "方案回应公告1.5(1)关于世界级AI创新生态体系的要求，以7个全球AI创新生态案例为参照，构建「算力-数据-算法-场景-资本-人才」六要素生态图谱，映射到三区两翼空间结构。众智园承载AI全栈自主创新体系，AI原点社区承载世界级AI创新生态，大钟寺承载智能原生新业态，中关村科技服务翼和小月河场景赋能翼提供要素配置与场景赋能支撑。生态机制覆盖土地、空间、产业、资金、人才、算力、数据、场景八个维度，均表述为概念建议。"
+    },
+    {
+      "requirement_id": "announce.2",
+      "title_zh": "建设适配AI新质生产力的新型城市形态",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/ai_service_zone.geojson",
+        "assets/figures/land-use-structure.png",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-HAIDIAN-1X1",
+        "SRC-PROVISIONAL-BOUNDARIES-2026"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "MOHURD-URBAN-DESIGN-MEASURES",
+        "MNR-LAND-USE-CLASSIFICATION-GUIDE"
+      ],
+      "proposal_section": "总体设计范围城市更新与控规深度城市设计",
+      "notes_zh": "方案提出适配AI新质生产力的新型城市形态：以神经网络拓扑为空间组织逻辑，将传统园区线性布局升级为多节点网络化布局。用地分类采用国土空间用地用海分类指南代码（科研用地0802、商业用地0901、商务金融用地0902、公园绿地1401等），在 geometry/land_use.geojson 中落地。建筑基底布局在 geometry/buildings.geojson 中以概念体量表达，metrics.json 中 building_footprint_area_sqm=1141283。容积率、建筑高度等依赖未公开官方控规条件的指标保持 status=unknown，未伪装为审定指标。"
+    },
+    {
+      "requirement_id": "announce.3",
+      "title_zh": "打造全球AI创新人才向往的高品质城区",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/scenario_nodes.geojson",
+        "assets/figures/mobility-bluegreen.png",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-HAIDIAN-1X1"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "MOHURD-URBAN-DESIGN-MEASURES",
+        "BARRIER-FREE-ENVIRONMENT-LAW",
+        "ELDERLY-SMART-TECH-PLAN-2020-45"
+      ],
+      "proposal_section": "蓝绿空间、公共空间与城市风貌",
+      "notes_zh": "方案以人才画像（AI研究员、创业者、开发者、社区居民、老年居民、国际访客）驱动空间设计，通过绿地比例（green_ratio=0.2979）、公共空间比例（public_space_ratio=0.1489）和慢行连通网络支撑创新交往与高品质生活。京张遗址公园活力带、小月河蓝绿走廊和口袋公园系统构成连续绿色空间体系。无障碍环境建设法和老年人运用智能技术困难实施方案作为背景参照，在公共空间和数字界面设计中保留人工服务通道和传统服务方式。"
+    },
+    {
+      "requirement_id": "announce.4",
+      "title_zh": "塑造京张遗址公园活力带",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/scenario_nodes.geojson",
+        "assets/figures/mobility-bluegreen.png",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "MOHURD-URBAN-DESIGN-MEASURES"
+      ],
+      "proposal_section": "蓝绿空间、公共空间与城市风貌",
+      "notes_zh": "方案将京张遗址公园塑造为「智脉主轴」——百年铁路遗址与AI创新体验融合的活力带。沿线布置AI场景节点、文化叙事载体、公共活动空间和科技测试展示场景，形成南北贯通的连续体验路径。公园活力带既是绿色空间骨架（纳入 green_space.geojson），也是公共空间网络主干（纳入 public_space.geojson），同时承载AI场景卡中的户外场景。方案区分遗址保护与活力注入边界，未违反文保约束。"
+    },
+    {
+      "requirement_id": "announce.5",
+      "title_zh": "提出交通、轨道、市政、配套设施和新型基础设施策略",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/roads.geojson",
+        "geometry/ai_service_zone.geojson",
+        "assets/figures/mobility-bluegreen.png",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-PROVISIONAL-BOUNDARIES-2026"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "MOHURD-CONTROL-DETAILED-PLANNING"
+      ],
+      "proposal_section": "交通、轨道、市政与公共服务设施",
+      "notes_zh": "方案提出道路微循环优化、轨道站点一体化（13号线、昌平线等既有站点TOD衔接）、慢行断点修复、停车与非机动车组织、分布式能源与端侧算力融合策略。metrics.json 中 road_network_length_m=24800 覆盖主走廊、服务道路和慢行环路。新型基础设施包含AI算力微中心、数据感知节点和智能市政管网概念建议。所有交通、轨道、市政策略均表述为概念建议，未给出道路红线、轨道线位、桥隧工程或市政管线工程方案结论，符合控规编制审批办法的已知控制与待确认区分要求。"
+    },
+    {
+      "requirement_id": "announce.6",
+      "title_zh": "对重点区域开展精细化设计",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/public_space.geojson",
+        "assets/figures/key-areas.png",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-PROVISIONAL-BOUNDARIES-2026",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "MOHURD-URBAN-DESIGN-MEASURES",
+        "MOHURD-CONTROL-DETAILED-PLANNING",
+        "MNR-LAND-USE-CLASSIFICATION-GUIDE"
+      ],
+      "proposal_section": "重点区域详细设计",
+      "notes_zh": "方案对众智园AI自主创新加速区（192.1ha）、北京AI原点社区（104.3ha）、大钟寺AI产业集聚区（72.0ha）分别开展详细设计，达到规划综合实施方案的城市设计深度。每个重点区形成「定位+空间结构+建筑更新+交通慢行+公共空间+AI场景+实施风险」的可读小方案。三处重点区polygon为provisional，方案说明相关结论只能作为方向性设计。metrics.json 中 key_area_count=3 与官方重点区数量一致。用地分类、建筑基底和公共空间均在对应GeoJSON图层中落地。"
+    },
+    {
+      "requirement_id": "announce.7",
+      "title_zh": "提出一带总体概念、命名体系、视觉识别和Logo方向",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "assets/figures/site-overview.png",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK"
+      ],
+      "proposal_section": "统筹研究范围产业与未来城市研究",
+      "notes_zh": "方案提出「京张智脉 Jingzhang NeuroBelt」总体概念与主名称，以神经网络隐喻统领命名体系：智脉主轴、三大神经节点（众智园、AI原点社区、大钟寺）、两条树突（中关村科技服务翼、小月河场景赋能翼）。视觉识别采用脉冲回路与铁轨肌理融合的图形语言，Logo方向在 visual/index.html 中以数据驱动方式呈现，包含主标、辅标、色彩体系和字体方向。未只提交口号式命名，未照搬城市、园区或企业名称，未未经授权使用字体、图片、商标或企业标识。"
+    },
+    {
+      "requirement_id": "announce.8",
+      "title_zh": "形成不少于10张AI场景卡、3个产业测试验证场景和5类用户画像",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/scenario_nodes.geojson",
+        "geometry/ai_service_zone.geojson",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-2026-HAIDIAN-1X1"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "GENERATIVE-AI-INTERIM-MEASURES"
+      ],
+      "proposal_section": "AI创新生态、人才画像与AI+场景",
+      "notes_zh": "方案形成12张AI场景卡（满足不少于10张），其中4张为AI产业测试验证场景（满足不少于3个），覆盖AI+信软、AI+医疗、AI+教育、AI+法律、AI+生活服务、AI+交通、AI+公共空间等方向。提供6类用户画像（满足不少于5类）。每张场景卡映射到空间位置、服务对象、运行数据、隐私边界、人工复核、运营主体、可视化图层和风险。metrics.json 中 ai_scenario_node_count=15 支撑场景节点落地。场景卡在正文中可读，不只在JSON中。"
+    },
+    {
+      "requirement_id": "announce.9",
+      "title_zh": "提出AI公共空间、智能原生新业态和不少于3个AI朝圣地标",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/public_space.geojson",
+        "geometry/green_space.geojson",
+        "geometry/scenario_nodes.geojson",
+        "assets/figures/mobility-bluegreen.png",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "MOHURD-URBAN-DESIGN-MEASURES"
+      ],
+      "proposal_section": "蓝绿空间、公共空间与城市风貌",
+      "notes_zh": "方案提出京张遗址公园AI公共空间系统、大钟寺智能原生消费与商务新业态、4个AI朝圣地标（智脉门户、神经突触广场、AI原点灯塔、京张记忆轴，满足不少于3个）。荣誉展示体系和公共空间组件库以可复用模块呈现。metrics.json 中 public_space_ratio=0.1489 支撑公共空间网络。地标标注为概念建议，未过度娱乐化或把概念地标写成已批准建设。"
+    },
+    {
+      "requirement_id": "announce.10",
+      "title_zh": "形成百年京张文化、中关村文化与AI新文化融合叙事",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/scenario_nodes.geojson",
+        "assets/figures/site-overview.png",
+        "assets/figures/key-areas.png"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "MOHURD-URBAN-DESIGN-MEASURES"
+      ],
+      "proposal_section": "蓝绿空间、公共空间与城市风貌",
+      "notes_zh": "方案构建京张铁路百年历史文化资源系统、中关村创新文化与AI新文化三层融合叙事，以「智脉」概念将铁路的「连接」基因与AI的「网络」基因融合。空间文化系统以铁路遗址为叙事主轴，通过文化墙、数字时间线、AR历史叠加和声音地标等表达载体串联。导视、标识、符号系统与整体Logo系统区分但协调。未歪曲历史事实，未把文化只当作科技装饰或口号，未未经授权使用肖像、商标或版权材料。"
+    },
+    {
+      "requirement_id": "announce.11",
+      "title_zh": "提出全球AI创新活动体系、开发者社区运营和长期品牌资产机制",
+      "status": "complete",
+      "evidence_files": [
+        "proposal.md",
+        "visual/index.html",
+        "geometry/phasing.geojson",
+        "metrics.json"
+      ],
+      "source_ids": [
+        "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-2026-BJ-KW-THREE-AREAS-WINGS"
+      ],
+      "standard_ids": [
+        "PROJECT-OFFICIAL-ANNOUNCEMENT",
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK"
+      ],
+      "proposal_section": "更新项目清单、实施政策与分期计划",
+      "notes_zh": "方案提出年度活动体系（四季智脉系列活动）、开发者社区运营机制（开源贡献积分、场景沙盒、众智园驻留计划）、AI场景开放运营机制、国际传播和招引转化机制。长期品牌资产机制以智脉IP为核心，通过活动品牌、知识沉淀和贡献可记忆机制实现持续积累。metrics.json 中 phasing_phase_count=3 对应三期分期运营安排。所有活动、招商、资金和政策安排均表述为概念建议，未表述为已确定政府安排。"
+    }
+  ]
+}

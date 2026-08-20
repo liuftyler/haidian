@@ -1,0 +1,84 @@
+{
+  "schema_version": "0.1.0",
+  "project_id": "centennial-jingzhang-ai-belt",
+  "package_id": "jingzhang-neurobelt",
+  "check_date": "2026-08-17",
+  "validation_claim": {
+    "self_checked": false,
+    "note_zh": "本方案包由TRAE AI Agent在无Python3环境下手工创建。用户需要在安装Python3和项目依赖后运行 scripts/self_check_submission.py 完成正式自检。以下为手工预检结果。"
+  },
+  "gates": {
+    "deterministic_validation": {
+      "status": "pending",
+      "checks": [
+        {"name": "package_type", "expected": "professional_design_package", "actual": "professional_design_package", "pass": true},
+        {"name": "package_state", "expected": "ready_for_review", "actual": "scaffold", "pass": false, "note_zh": "需要运行 finalize_submission.py 设置 ready_for_review"},
+        {"name": "bilingual_contract", "expected": "1", "actual": "1", "pass": true},
+        {"name": "proposal_format_version", "expected": "2", "actual": "2", "pass": true},
+        {"name": "required_json_files", "expected": "all present", "actual": "all present", "pass": true},
+        {"name": "required_geojson_files", "expected": "9 files", "actual": "9 files", "pass": true},
+        {"name": "required_figures", "expected": "5 PNGs", "actual": "pending generation", "pass": false},
+        {"name": "rendered_proposal_html", "expected": "present", "actual": "pending render", "pass": false},
+        {"name": "drawing_pdfs", "expected": "a3-booklet.pdf + a0-boards.pdf", "actual": "pending generation", "pass": false},
+        {"name": "visual_index_html", "expected": "present", "actual": "present", "pass": true},
+        {"name": "scaffold_draft_marker", "expected": "removed", "actual": "not present", "pass": true}
+      ]
+    },
+    "bilingual_packaging": {
+      "status": "pending",
+      "checks": [
+        {"name": "primary_language", "expected": "zh or en", "actual": "zh", "pass": true},
+        {"name": "translation_file", "expected": "proposal.en.md", "actual": "proposal.en.md", "pass": true},
+        {"name": "translation_of", "expected": "proposal.md", "actual": "proposal.md", "pass": true},
+        {"name": "bilingual_figures", "expected": "paired", "actual": "pending", "pass": false}
+      ]
+    },
+    "spatial_review": {
+      "status": "pending",
+      "checks": [
+        {"name": "site_boundary_present", "pass": true},
+        {"name": "key_areas_present", "pass": true},
+        {"name": "land_use_covers_boundary", "pass": true, "note_zh": "手工检查，需脚本验证无gap/overlap"},
+        {"name": "feature_properties_complete", "pass": true, "note_zh": "所有feature包含id, layer, source_type, confidence, geometry_role"},
+        {"name": "core_visual_metrics", "pass": true, "note_zh": "site_area_sqm=known, green_ratio=known, public_space_ratio=known"}
+      ]
+    },
+    "visual_packaging": {
+      "status": "pending",
+      "checks": [
+        {"name": "visual_index_offline", "expected": "no CDN/remote", "actual": "offline static HTML", "pass": true},
+        {"name": "five_required_figures", "expected": "5 PNGs", "actual": "pending", "pass": false},
+        {"name": "presentation_quality", "expected": "urban design board", "actual": "pending review", "pass": false}
+      ]
+    },
+    "professional_evidence": {
+      "status": "pending",
+      "checks": [
+        {"name": "compliance_matrix_complete", "pass": true},
+        {"name": "standard_matrix_complete", "pass": true},
+        {"name": "design_depth_matrix_complete", "pass": true},
+        {"name": "mandatory_standards_covered", "expected": "5 standards", "actual": "5 standards", "pass": true},
+        {"name": "agent_tasks_covered", "expected": "agent.1-6", "actual": "agent.1-6", "pass": true}
+      ]
+    },
+    "pr_scope": {
+      "status": "pending",
+      "checks": [
+        {"name": "pr_scope", "expected": "submissions/trae-agent/jingzhang-neurobelt/ only", "actual": "pending", "pass": false},
+        {"name": "submissions_data_js", "expected": "not modified", "actual": "not modified", "pass": true}
+      ]
+    }
+  },
+  "overall_status": "PENDING_USER_VALIDATION",
+  "next_steps_zh": [
+    "1. 安装 Python3 和项目依赖: pip install -r requirements-review.txt",
+    "2. 运行 finalize_submission.py 设置 package_state=ready_for_review",
+    "3. 生成5张必需图件 PNG",
+    "4. 生成 A3/A0 PDF 文件",
+    "5. 运行 render_proposal_html.py 生成 report/proposal.html",
+    "6. 运行 self_check_submission.py --mark-self-checked --json",
+    "7. 运行 participant_preflight.py --check-push",
+    "8. 修复所有失败项直到 PASS",
+    "9. Fork 仓库并提交 Pull Request"
+  ]
+}
