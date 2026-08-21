@@ -1,4 +1,4 @@
----
+﻿---
 title: "京张智脉 · Jingzhang NeuroBelt——从百年铁轨到AI智脉的创新带城市设计"
 author_github: "liuftyler"
 language: "zh"
@@ -24,7 +24,7 @@ iteration: "v0.1"
 
 本方案的图件、几何和可视化均从同一套 GeoJSON、指标和矩阵派生。五张必需图件为：场地总览图、用地结构图、重点区域图、交通蓝绿复合图和指标证据图 [data:geometry/site_boundary.geojson#SITE-001]。
 
-![场地总览与资料证据链图](assets/figures/site-overview.png)
+![场地总览与资料证据链图](assets/figures/site-overview.jpg)
 
 ## 三层范围工作框架
 
@@ -38,7 +38,7 @@ iteration: "v0.1"
 
 三层范围的空间边界均使用 provisional 几何 [source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605]。provisional 边界的粗略来源是公告文字四至和面积约束，适用于临时AI生成、展示和自检，但不得作为官方红线、审批依据或精确面积复算依据。官方 polygon 发布后，需要重新复算所有图层面积和指标 [assumption:ASM-001]。当前复算的场地面积为 11,412,825 平方米 [metric:site_area_sqm]，与公告约 11.4 平方公里的约束一致。
 
-![三层范围与空间工作框架图](assets/figures/land-use-structure.png)
+![三层范围与空间工作框架图](assets/figures/land-use-structure.jpg)
 
 ## 统筹研究范围产业与未来城市研究
 
@@ -191,7 +191,7 @@ iteration: "v0.1"
 
 **实施风险**：大钟寺站TOD开发涉及轨道部门协调；产业招商为概念建议，不构成已确定事项 [assumption:ASM-008]。
 
-![三处重点区域索引与设计任务图](assets/figures/key-areas.png)
+![三处重点区域索引与设计任务图](assets/figures/key-areas.jpg)
 
 ## AI 创新生态、人才画像与 AI+ 场景
 
@@ -270,7 +270,7 @@ iteration: "v0.1"
 - **智能感知**：沿走廊部署环境感知、交通感知和安全感知网络，数据脱敏后用于城市治理
 - **绿色市政**：分布式能源、雨水收集和智能垃圾分类系统融入公共空间设计
 
-![交通慢行与蓝绿公共空间复合系统图](assets/figures/mobility-bluegreen.png)
+![交通慢行与蓝绿公共空间复合系统图](assets/figures/mobility-bluegreen.jpg)
 
 ## 蓝绿空间、公共空间与城市风貌
 
@@ -387,7 +387,7 @@ iteration: "v0.1"
 
 六项智能体任务（agent.1-agent.6）和十一项公告任务均在 `compliance_matrix.json` 中覆盖 [depth:metrics_compliance]。五项强制性专业标准在 `standard_matrix.json` 中响应。十四项设计深度项在 `design_depth_matrix.json` 中标记为 complete。
 
-![核心指标复算与证据链图](assets/figures/metrics-evidence.png)
+![核心指标复算与证据链图](assets/figures/metrics-evidence.jpg)
 
 ## 风险、版权与合规说明
 

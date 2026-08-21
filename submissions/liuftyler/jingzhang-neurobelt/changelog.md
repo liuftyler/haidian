@@ -1,6 +1,6 @@
 # 方案迭代记录
 
-## v0.1 — 2026-08-17
+## v0.1 - 2026-08-17
 
 ### 初始创建
 
@@ -26,7 +26,7 @@
 
 本方案包在无 Python3、无 git、无 gh CLI 的 Windows 环境下手工创建。SHA-256 哈希、package_state 和 readiness_contract 需要用户在安装 Python3 和项目依赖后运行官方脚本完成。
 
-## v0.2 — 2026-08-20
+## v0.2 - 2026-08-20
 
 ### 格式修复
 
@@ -48,3 +48,18 @@
 - 运行 `self_check_submission.py` 完成正式自检
 - 运行 `participant_preflight.py` 完成推送前检查
 - Fork 仓库并提交 Pull Request
+
+## v0.3 - 2026-08-21
+
+### 清理与准备
+
+- manifest.json：移除所有文件条目中手写的 sha256 字段，交由官方 `finalize_submission.py` 脚本自动计算并补全
+- changelog.md：新增 v0.3 版本记录
+
+### 双语合同补全
+
+- 创建 `drawings/a0-boards.en.pdf` 英文版图件
+- 创建 `drawings/a3-booklet.en.pdf` 英文版图件
+- 创建 `report/proposal.en.html` 英文版方案报告（完整 HTML 文档，lang="en"）
+- 创建 `visual/index.en.html` 英文版可视化展板（完整 HTML 文档，lang="en"）
+- manifest.json：为以上4个双语文件添加 files 条目（含 language: "en" 和 translation_of 字段）

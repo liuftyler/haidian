@@ -10,7 +10,9 @@
       "proposal_sections": [
         "设计依据与资料清单"
       ],
-      "drawing_refs": [],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf"
+      ],
       "geometry_refs": [
         "geometry/site_boundary.geojson"
       ],
@@ -420,7 +422,9 @@
       "proposal_sections": [
         "指标体系、面积复算与合规矩阵"
       ],
-      "drawing_refs": [],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf"
+      ],
       "geometry_refs": [
         "geometry/site_boundary.geojson",
         "geometry/green_space.geojson",
@@ -460,9 +464,15 @@
       "proposal_sections": [
         "风险、版权与合规说明"
       ],
-      "drawing_refs": [],
-      "geometry_refs": [],
-      "metric_refs": [],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/constraints.geojson"
+      ],
+      "metric_refs": [
+        "site_area_sqm"
+      ],
       "source_ids": [
         "REPO-HAIDIAN-SKILL"
       ],

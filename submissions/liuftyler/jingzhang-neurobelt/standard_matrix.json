@@ -54,7 +54,7 @@
         "SPATIAL_REVIEW",
         "PROFESSIONAL_EVIDENCE"
       ],
-      "evidence_summary_zh": "方案以公告为三层范围、三处重点区域和十一条设计任务的主控依据。用地分类、面积复算和指标体系均回引公告已知值。每个章节对应公告设计任务条目，并在 compliance_matrix.json 中逐条标注 announce.1-announce.11 的覆盖状态。"
+      "evidence_summary_zh": "方案以公告为三层范围、三处重点区域和十一条设计任务的主控依据。用地分类、面积复算和指标体系均回引公告已知值。每个章节对应公告设计任务条目，并在 compliance_matrix.json 中逐条标注覆盖状态。"
     },
     {
       "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
@@ -150,7 +150,8 @@
         "指标体系、面积复算与合规矩阵"
       ],
       "drawing_refs": [
-        "drawings/a3-booklet.pdf"
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
       ],
       "geometry_refs": [
         "geometry/land_use.geojson",
@@ -165,7 +166,8 @@
         "building_footprint_area_sqm"
       ],
       "source_ids": [
-        "STD-MOHURD-CONTROL-DETAILED-PLANNING"
+        "STD-MOHURD-CONTROL-DETAILED-PLANNING",
+        "REPO-HAIDIAN-SKILL"
       ],
       "assumption_ids": [
         "ASM-003",
@@ -188,7 +190,9 @@
         "总体设计范围城市更新与控规深度城市设计",
         "指标体系、面积复算与合规矩阵"
       ],
-      "drawing_refs": [],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf"
+      ],
       "geometry_refs": [
         "geometry/land_use.geojson"
       ],
@@ -227,7 +231,9 @@
       "metric_refs": [
         "building_footprint_area_sqm"
       ],
-      "source_ids": [],
+      "source_ids": [
+        "REPO-HAIDIAN-SKILL"
+      ],
       "assumption_ids": [
         "ASM-003"
       ],
@@ -247,14 +253,18 @@
         "AI 创新生态、人才画像与 AI+ 场景",
         "风险、版权与合规说明"
       ],
-      "drawing_refs": [],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf"
+      ],
       "geometry_refs": [
         "geometry/public_space.geojson"
       ],
       "metric_refs": [
         "ai_scenario_node_count"
       ],
-      "source_ids": [],
+      "source_ids": [
+        "REPO-HAIDIAN-SKILL"
+      ],
       "assumption_ids": [
         "ASM-006"
       ],
@@ -274,14 +284,18 @@
         "AI 创新生态、人才画像与 AI+ 场景",
         "蓝绿空间、公共空间与城市风貌"
       ],
-      "drawing_refs": [],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf"
+      ],
       "geometry_refs": [
         "geometry/public_space.geojson"
       ],
       "metric_refs": [
         "ai_scenario_node_count"
       ],
-      "source_ids": [],
+      "source_ids": [
+        "REPO-HAIDIAN-SKILL"
+      ],
       "assumption_ids": [
         "ASM-006"
       ],
@@ -300,14 +314,18 @@
       "proposal_sections": [
         "AI 创新生态、人才画像与 AI+ 场景"
       ],
-      "drawing_refs": [],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf"
+      ],
       "geometry_refs": [
         "geometry/public_space.geojson"
       ],
       "metric_refs": [
         "ai_scenario_node_count"
       ],
-      "source_ids": [],
+      "source_ids": [
+        "REPO-HAIDIAN-SKILL"
+      ],
       "assumption_ids": [
         "ASM-006"
       ],

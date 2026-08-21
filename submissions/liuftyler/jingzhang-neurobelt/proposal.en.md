@@ -1,4 +1,4 @@
----
+﻿---
 title: "Jingzhang NeuroBelt — From a Century-Old Railway to an AI Neural Pathway: An Urban Design Proposal for an Innovation Belt"
 author_github: "liuftyler"
 language: "en"
@@ -24,7 +24,7 @@ Land-use classification follows the Guidelines for Land-Use (and Sea-Use) Classi
 
 All figures, geometry, and visualizations in this proposal are derived from the same set of GeoJSON files, metrics, and matrices. The five required figures are: the site overview map, the land-use structure map, the key areas map, the mobility–blue-green composite map, and the metrics evidence map [data:geometry/site_boundary.geojson#SITE-001].
 
-![场地总览与资料证据链图](assets/figures/site-overview.png)
+![场地总览与资料证据链图](assets/figures/site-overview.jpg)
 
 ## Three-Tier Scope Working Framework
 
@@ -38,7 +38,7 @@ The task brief establishes a three-tier progressive working scope [source:SRC-20
 
 The spatial boundaries of all three tiers use provisional geometry [source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605]. The rough basis for the provisional boundaries is the textual extent and area constraints in the announcement; they are suitable for temporary AI generation, display, and self-checking, but must not be used as official red lines, approval bases, or precise area recomputation bases. Once official polygons are released, all layer areas and metrics must be recomputed [assumption:ASM-001]. The currently recomputed site area is 11,412,825 square meters [metric:site_area_sqm], consistent with the announcement's constraint of approximately 11.4 square kilometers.
 
-![三层范围与空间工作框架图](assets/figures/land-use-structure.png)
+![三层范围与空间工作框架图](assets/figures/land-use-structure.jpg)
 
 ## Coordinated Research Area: Industry and Future City Research
 
@@ -191,7 +191,7 @@ Statutory control metrics such as floor area ratio, building height, and buildin
 
 **Implementation risks**: the Dazhongsi Station TOD development requires coordination with rail authorities; industry attraction is a conceptual proposal and does not constitute a confirmed matter [assumption:ASM-008].
 
-![三处重点区域索引与设计任务图](assets/figures/key-areas.png)
+![三处重点区域索引与设计任务图](assets/figures/key-areas.jpg)
 
 ## AI Innovation Ecosystem, User Personas, and AI+ Scenarios
 
@@ -270,7 +270,7 @@ The three rail stations (Qinghuayuan, Wudaokou, Dazhongsi) are key "synapses" fo
 - **Smart sensing**: environmental sensing, traffic sensing, and safety sensing networks deployed along the corridor; data anonymized for urban governance use
 - **Green municipal systems**: distributed energy, rainwater harvesting, and smart waste-sorting systems integrated into public space design
 
-![交通慢行与蓝绿公共空间复合系统图](assets/figures/mobility-bluegreen.png)
+![交通慢行与蓝绿公共空间复合系统图](assets/figures/mobility-bluegreen.jpg)
 
 ## Blue-Green Space, Public Space, and Urban Form
 
@@ -387,7 +387,7 @@ Metrics that depend on undisclosed official control conditions, such as floor ar
 
 The six agent tasks (agent.1–agent.6) and the eleven announcement tasks are all covered in `compliance_matrix.json` [depth:metrics_compliance]. The five mandatory professional standards are responded to in `standard_matrix.json`. The fourteen design-depth items are marked complete in `design_depth_matrix.json`.
 
-![核心指标复算与证据链图](assets/figures/metrics-evidence.png)
+![核心指标复算与证据链图](assets/figures/metrics-evidence.jpg)
 
 ## Risk, Copyright, and Compliance Statement
 
